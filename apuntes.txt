@@ -1,0 +1,76 @@
+HTML:
+
+conexion en head con css:       <link rel="stylesheet" href="./style.css">
+
+
+boton:      <a href="url/ejemplo" class="boton"> Watch the world burn</a>
+
+lista:      <ul>  
+                <li> 1 </li>
+                <li> 3 </li>                    
+                <li> 2 </li>
+            </ul>
+
+imagen:    <img src="static/soad.webp" />
+
+tablas:     <table>
+                    <tr>
+                        <th> primera columna de primera fila </th>
+                        <th> segunda columna de primera fila </th>
+                    </tr>
+                    <tr>
+                        <th> primera columna de segunda fila </th>
+                        <th> segunda columna de segunda fila </th>
+                    </tr>
+            <table>
+
+
+forms:       <form action="">
+                <option> opcion 1 </option>
+             </form>
+
+
+CSS:
+
+tipo de letra:         font-family: Arial;
+color de fondo:        background-color: #fff;
+
+
+.container{
+    margin: 80px auto;         margen de contenedor
+    width: 900px;              ancho de contenedor
+    height: 500px;             alto de contenedor 
+    
+    display:block;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);    cantidad de columnas(3)
+    grid-template-rows: repeat(3,1fr);       cantidad de filas
+}
+
+.img{  
+    width: 60%;                 ancho de contenedor
+    height: 90%;                   alto de imagen:      
+    object-fit: cover;
+}
+
+.boton{
+    color; #fff;                   color de letra
+    padding: auto;
+}
+
+
+.box_lateral{
+    grid-column: 3/4;               acomodando box_lateral en los margenes de columna 3 y 4 (tercer columna)
+    grid-row: 1/4;                  acomodando box_lateral en las filas 1 a 4
+}
+
+
+
+.boton:hover{
+    color; #fff;                   color de letra
+    transition; 1s;
+}
+.boton{
+    color; #fff;                   otro color al posicionar el mouse encima(hover)
+    
+}

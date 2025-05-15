@@ -1,0 +1,92 @@
+body{
+    font-family: Arial;
+    background-color: rgb(22, 21, 21);
+}
+.container{
+    margin: 80px auto;
+    width: 900px;
+    height: 500px;
+    
+    display:block;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.titulo{
+    text-align: center;
+    color: whitesmoke;
+}
+.box_img{
+    text-align: center;
+    margin: 10px;
+}
+#lista_personal{
+    color: blanchedalmond;
+}
+#fir{
+    color: rgb(47, 124, 196);
+}
+.fir_logo:hover{
+    width: 70%;
+    height: 90%;
+    object-fit: cover;
+    transition: 1s;
+}
+.fir_logo{
+    width: 60%;
+    height: 80%;
+}
+#soad {
+    color: #26b16b;
+}
+#msk{
+
+    color: #961010;
+}
+.img{
+    width: 60%; /* ancho de imagen*/
+    height: 90%; /* alto de imagen*/
+    object-fit: cover;
+    transition: 1s;
+}
+.img:hover{
+    width: 70%; /* ancho de imagen*/
+    height: 100%; /* alto de imagen*/
+}
+.boton{
+    color: #dbc2c2;
+    padding: auto;
+}
+#lista_personal{
+    color:white;
+}
+.box_1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.box_2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.box_3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+box_4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+box_5{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+box_6{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.box_lateral{
+    background-color:#811c1c;
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
