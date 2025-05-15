@@ -74,3 +74,4 @@ color de fondo:        background-color: #fff;
     color; #fff;                   otro color al posicionar el mouse encima(hover)
     
 }
+nada mas
